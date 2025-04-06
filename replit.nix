@@ -1,5 +1,6 @@
-{pkgs}: {
+
+{ pkgs }: {
   deps = [
-    pkgs.pyenv
+    pkgs.python3
   ];
 }
